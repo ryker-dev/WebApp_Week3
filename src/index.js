@@ -9,15 +9,15 @@ if (document.readyState !== "loading") {
 }
 
 function initializeCode() {
-  //document.getElementById("app").innerHTML = "<h1>Hello!</h1>";
-  createWikiItem("Husky", "Dog breed");
-  createWikiItem("German Shepherd", "Dog breed");
-  createWikiItem("Labrador", "Dog breed");
-  createWikiItem("Collie", "Dog breed");
-  createWikiItem("Finnish Lapphund", "Dog breed");
+  document.getElementById("app").innerHTML = "<h1>Hello!</h1>";
+  createWikiItem("Husky", "husky", "Dog breed");
+  createWikiItem("German Shepherd", "germanshepherd", "Dog breed");
+  createWikiItem("Labrador", "labrador", "Dog breed");
+  createWikiItem("Collie", "collie", "Dog breed");
+  createWikiItem("Finnish Lapphund", "finnish", "Dog breed");
 }
 
-function createWikiItem(breedName, wikitext) {
+function createWikiItem(breedName, breedImage, wikitext) {
   const container = document.getElementsByClassName("container");
 
   const div = document.createElement("div");
@@ -33,7 +33,11 @@ function createWikiItem(breedName, wikitext) {
   const imagediv = document.createElement("div");
   imagediv.className = "img-container";
   const image = document.createElement("img");
+  //image.src = "https://dog.ceo/api/breed/" + breedImage + "/images/random";
   image.className = "wiki-img";
+  image.src = fetchImage(breedImage).then((res) => {
+    image.src = res;
+  });
 
   container[0].appendChild(div);
   div.appendChild(header);
@@ -41,4 +45,12 @@ function createWikiItem(breedName, wikitext) {
   content.appendChild(text);
   content.appendChild(imagediv);
   imagediv.appendChild(image);
+}
+
+async function fetchImage(breedName, image) {
+  const response = await fetch(
+    "https://dog.ceo/api/breed/" + breedName + "/images/random"
+  );
+  const data = await response.json();
+  return data.message;
 }

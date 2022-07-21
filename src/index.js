@@ -1,4 +1,5 @@
 import "./styles.css";
+const descriptions = require("./breed_descriptions.json");
 
 if (document.readyState !== "loading") {
   initializeCode();
@@ -9,7 +10,7 @@ if (document.readyState !== "loading") {
 }
 
 function initializeCode() {
-  document.getElementById("app").innerHTML = "<h1>Hello!</h1>";
+  document.getElementById("app").innerHTML = "";
   createWikiItem("Husky", "husky", "Dog breed");
   createWikiItem("German Shepherd", "germanshepherd", "Dog breed");
   createWikiItem("Labrador", "labrador", "Dog breed");
@@ -29,7 +30,7 @@ function createWikiItem(breedName, breedImage, wikitext) {
   content.className = "wiki-content";
   const text = document.createElement("p");
   text.className = "wiki-text";
-  text.innerText = wikitext;
+  text.innerText = descriptions[breedImage].description;
   const imagediv = document.createElement("div");
   imagediv.className = "img-container";
   const image = document.createElement("img");

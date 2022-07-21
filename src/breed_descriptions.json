@@ -1,0 +1,17 @@
+{
+  "husky": {
+    "description": "Husky is a general term for a dog used in the polar regions, primarily and specifically for work as sled dogs. It refers to a traditional northern type, notable for its cold-weather tolerance and overall hardiness. Modern racing huskies that maintain arctic breed traits (also known as Alaskan huskies) represent an ever-changing crossbreed of the fastest dogs.\n\nHuskies have continued to be used in sled-dog racing, as well as expedition and trek style tour businesses, and as a means of essential transportation in rural communities. Huskies are also kept as pets, and groups work to find new pet homes for retired racing and adventure-trekking dogs."
+  },
+  "germanshepherd": {
+    "description": "The German Shepherd or Alsatian is a German breed of working dog of medium to large size. The breed was developed by Max von Stephanitz using various traditional German herding dogs from 1899.\n\nIt was originally bred as a herding dog, for herding sheep. It has since been used in many other types of work, including disability assistance, search-and-rescue, police work and warfare. It is commonly kept as a companion dog, and according to the Fédération Cynologique Internationale had the second-highest number of annual registrations in 2013."
+  },
+  "labrador": {
+    "description": "Labrador is a geographic and cultural region within the Canadian province of Newfoundland and Labrador. It is the primarily continental portion of the province and constitutes 71% of the province's area but is home to only 6% of the province's population. It is separated from the island of Newfoundland by the Strait of Belle Isle. It is the largest and northernmost geographical region in Atlantic Canada.\n\nLabrador occupies most of the eastern part of the Labrador Peninsula. It is bordered to the west and the south by the Canadian province of Quebec. Labrador also shares a small land border with the Canadian territory of Nunavut on Killiniq Island. "
+  },
+  "collie": {
+    "description": "Collies form a distinctive type of herding dogs, including many related landraces and standardized breeds. The type originated in Scotland and Northern England. Collies are medium-sized, fairly lightly-built dogs, with pointed snouts. Many types have a distinctive white color over the shoulders. Collies are very active and agile, and most types of collies have a very strong herding instinct. Collie breeds have spread through many parts of the world (especially Australia and North America), and have diversified into many varieties, sometimes mixed with other dog types. Some collie breeds have remained as working dogs for herding cattle, sheep, and other livestock, while others are kept as pets, show dogs or for dog sports, in which they display great agility, stamina and trainability. While the American Kennel Club has a breed they call \"collie\", in fact collie dogs are a distinctive type of herding dog inclusive of many related landraces and formal breeds. There are usually major distinctions between show dogs and those bred for herding trials or dog sports: the latter typically display great agility, stamina and trainability, and, more importantly, sagacity."
+  },
+  "finnish": {
+    "description": "The Finnish Lapphund (or Finnish Lapponian Dog) is a hardy, easy going, medium-size breed of Spitz type. Traditionally it has been used for herding reindeer. Although it is one of the most popular dog breeds in its native country, Finland, it is not very numerous outside of the Nordic countries."
+  }
+}

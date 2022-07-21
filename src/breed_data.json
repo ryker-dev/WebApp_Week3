@@ -1,0 +1,27 @@
+{
+  "husky": {
+    "name": "Husky",
+    "imagename": "husky",
+    "wikiname": "Husky"
+  },
+  "germanshepherd": {
+    "name": "German Shepherd",
+    "imagename": "germanshepherd",
+    "wikiname": "German_Shepherd"
+  },
+  "labrador": {
+    "name": "Labrador",
+    "imagename": "labrador",
+    "wikiname": "Labrador"
+  },
+  "collie": {
+    "name": "Collie",
+    "imagename": "collie",
+    "wikiname": "Collie"
+  },
+  "finnishlapphund": {
+    "name": "Finnish Lapphund",
+    "imagename": "finnish",
+    "wikiname": "Finnish_Lapphund"
+  }
+}
